@@ -1,15 +1,12 @@
 /**
  * Harmonic Mean
- * @param parameters {number[]} - The numbers to calculate the harmonic mean
+ * @param values {number[]} - The numbers to calculate the harmonic mean
  * @return {number} - The harmonic mean of the numbers
  */
-export function harmonicMean(...parameters: unknown[]): number {
-  if (!isNumericArray(parameters)) {
+export function harmonicMean(...values: number[]): number {
+  if (!isNumericArray(values)) {
     return NaN;
   }
-
-  const values = <number[]>parameters;
-
   if (!hasOnlyPositiveValues(values)) {
     return NaN;
   }
