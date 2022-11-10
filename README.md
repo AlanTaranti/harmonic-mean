@@ -25,7 +25,6 @@ yarn add @taranti/harmonic-mean
 ```javascript
 import { harmonicMean } from '@taranti/harmonic-mean';
 
-//
 const result = harmonicMean([100, 200, 300, 400]);
 
 console.log(result); // 192
