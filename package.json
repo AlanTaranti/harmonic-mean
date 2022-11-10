@@ -8,6 +8,20 @@
     "/dist",
     "/dist.browser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlanTaranti/harmonic-mean"
+  },
+  "bugs": {
+    "url": "https://github.com/AlanTaranti/harmonic-mean/issues"
+  },
+  "homepage": "https://github.com/AlanTaranti/harmonic-mean",
+  "keywords": [
+    "math",
+    "harmonic mean",
+    "mean",
+    "statistic"
+  ],
   "scripts": {
     "build": "npm run build:node && npm run build:browser",
     "build:node": "tsc",
