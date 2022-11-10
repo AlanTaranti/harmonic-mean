@@ -1,5 +1,12 @@
 # Taranti Harmonic Mean
 
+[![npm version](https://img.shields.io/npm/v/@taranti/harmonic-mean.svg?style=flat-square)](https://www.npmjs.org/package/@taranti/harmonic-mean)
+[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@taranti/harmonic-mean&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=@taranti/harmonic-mean)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@taranti/harmonic-mean?style=flat-square)](https://bundlephobia.com/package/@taranti/harmonic-mean@latest)
+![Maintenance](https://img.shields.io/maintenance/yes/2022)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/AlanTaranti/harmonic-mean/blob/master/CODE_OF_CONDUCT.md)
+[![License](https://img.shields.io/github/license/AlanTaranti/harmonic-mean.svg?style=flat-square)](https://github.com/AlanTaranti/harmonic-mean/blob/main/LICENSE)
+
 Taranti Harmonic Mean is a Javascript/Typescript library for harmonic mean computation.
 
 ## Installation
