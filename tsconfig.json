@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "noImplicitAny": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "types": ["jest"]
+  },
+  "include": ["src/**.ts"]
+}

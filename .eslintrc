@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.eslint.json"
+  },
+  "plugins": ["@typescript-eslint", "jest"],
+  "ignorePatterns": ["*.json", "*.js", "/*"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "prettier"
+  ],
+  "rules": {
+    // EsLint
+    "array-callback-return": "error",
+    "no-await-in-loop": "error",
+    "no-template-curly-in-string": "error",
+    "no-implicit-coercion": "error",
+    "eqeqeq": "error",
+    "no-else-return": "error",
+    "no-lonely-if": "error",
+    "no-loop-func": "error",
+    "no-nested-ternary": "error",
+    "no-return-assign": "error",
+    "no-return-await": "error",
+    "no-unneeded-ternary": "error",
+    "no-useless-return": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-console": "error",
+    // Typescript
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/no-redundant-type-constituents": "error",
+    "@typescript-eslint/no-require-imports": "error",
+    "@typescript-eslint/promise-function-async": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unsafe-assignment": "error",
+    "@typescript-eslint/no-unsafe-call": "error",
+    "@typescript-eslint/no-unsafe-member-access": "error",
+    "@typescript-eslint/require-await": "error",
+    "@typescript-eslint/unbound-method": [
+      "error",
+      {
+        "ignoreStatic": true
+      }
+    ]
+  }
+}

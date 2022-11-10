@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "None",
+    "target": "ES2015",
+    "noImplicitAny": true,
+    "declaration": true,
+    "outDir": "./dist/browser"
+  },
+  "include": ["src/**/*"]
+}
