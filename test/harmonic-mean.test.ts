@@ -43,14 +43,24 @@ describe('harmonic mean', () => {
   });
 
   test('should return NaN when not primitive number values are passed', () => {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     expect(harmonicMean('a')).toBeNaN();
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     expect(harmonicMean('a', 'b', 'c')).toBeNaN();
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     expect(harmonicMean(true, false)).toBeNaN();
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     expect(harmonicMean([1, 2, 3])).toBeNaN();
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     expect(harmonicMean([], {})).toBeNaN();
   });
 });
