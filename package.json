@@ -28,6 +28,7 @@
     "build:node": "tsc",
     "build:browser": "webpack",
     "test": "jest",
+    "prepublish": "npm run test && npm run build",
     "prepare": "husky install"
   },
   "author": "Alan Taranti",
