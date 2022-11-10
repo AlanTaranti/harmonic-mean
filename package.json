@@ -4,6 +4,7 @@
   "description": "Taranti Harmonic Mean is a Javascript/Typescript library for harmonic mean computation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "files": [
     "/dist",
     "/dist.browser"
