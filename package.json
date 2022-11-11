@@ -1,6 +1,6 @@
 {
   "name": "@taranti/harmonic-mean",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Taranti Harmonic Mean is a Javascript/Typescript library for harmonic mean computation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
