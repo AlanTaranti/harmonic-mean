@@ -9,6 +9,8 @@
 
 Taranti Harmonic Mean is a Javascript/Typescript library for harmonic mean computation.
 
+For more information about how Harmonic Mean is calculated, see [Wikipedia](https://en.wikipedia.org/wiki/Harmonic_mean).
+
 ## Installation
 
 Use your favorite the package manager to install harmonic-mean.
