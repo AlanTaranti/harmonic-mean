@@ -6,8 +6,7 @@
   "types": "dist/index.d.ts",
   "private": false,
   "files": [
-    "/dist",
-    "/dist.browser"
+    "/dist"
   ],
   "repository": {
     "type": "git",
